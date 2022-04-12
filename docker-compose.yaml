@@ -1,0 +1,12 @@
+networks:
+  mongo-net:
+    driver: bridge
+
+services:
+  mongo:
+    image: "mongo:5"
+    restart: always
+
+  bot:
+    build: .
+    volumes: .:/app

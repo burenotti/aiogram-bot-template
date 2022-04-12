@@ -1,0 +1,4 @@
+aiogram==2.19
+python-dotenv==0.20.0
+pymongo
+motor
